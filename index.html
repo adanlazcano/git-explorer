@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GIThub Explorer</title>
+
+    <link rel="shortcut icon" href="https://github.githubassets.com/images/modules/logos_page/Octocat.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <script type="module" src="./public/js/main.js" defer></script>
+</head>
+
+<body>
+    <form id="form">
+        <input id="search" autocomplete="off" type="search" placeholder="Search Github">
+    </form>
+
+    <div id="profile"></div>
+
+    <template id="template">
+        <div class="imgBx">
+        <img src="" alt="">
+    </div>
+    <div class="desc">
+        <h2 id="name"></h2>
+        <p id="bio"></p>
+        <ul id="followers"></ul>
+        <div class="repos"></div>
+    </div>
+
+    </template>
+    <template id="repos">
+        <a target="_blank" href="#"></a>
+    </template>
+
+</body>
+
+</html>
